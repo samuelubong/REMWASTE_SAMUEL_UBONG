@@ -54,3 +54,29 @@ This project automates UI tests for the [OrangeHRM Demo](https://opensource-demo
 git clone https://github.com/your-username/cypress-orangehrm-tests.git
 cd cypress-orangehrm-tests
 npm install
+
+🚀 Run Tests via Cypress UI
+    npx cypress open
+
+//Run Tests in Headless Mode (CI)
+    npx cypress run
+
+
+5. Assumptions & Limitations
+Assumptions
+
+    OrangeHRM demo site is online and accessible.
+
+    Login credentials (Admin / admin123) remain valid.
+
+    Page DOM and selectors are stable.
+
+Limitations
+
+    No API/backend testing implemented.
+
+    Toast/message validations depend on frontend behavior.
+
+    No mobile/responsive testing included.
+
+    Shared demo data may reset across sessions due to public access.
