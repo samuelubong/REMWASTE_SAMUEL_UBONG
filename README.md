@@ -80,5 +80,3 @@ Limitations
     No mobile/responsive testing included.
 
     Shared demo data may reset across sessions due to public access.
-<img width="810" height="167" alt="image" src="https://github.com/user-attachments/assets/ce22c7e2-f3a0-49fa-b758-1b663dee1208" />
-
